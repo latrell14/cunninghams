@@ -1,0 +1,272 @@
+body {
+	background: rgb(51, 51, 51);
+}
+
+img {
+	float: left;
+	margin: 8px 15px 0 20px;
+	width: 200px;
+}
+
+h2 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #42a8a8;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+h4 {
+	color: rgb(160,160,160);
+  	word-wrap: break-word;
+}
+
+.change {
+	color: #42a8a8;
+}
+
+.container {
+	background: white;
+	padding: 20px 20px;
+}
+
+.hero {
+	position: relative;
+	padding-top: 57%;
+	background: url('../hero/mainhead.png') center center no-repeat;
+	background-size: cover;
+}
+
+.hero .logo {
+	font-size: 100px;
+	font-weight: lighter;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+
+.nav {
+	padding: 0;
+	list-style: none;
+}
+
+.nav li {
+	display: block;
+}
+
+.nav a {
+	color: white;
+	display: block;
+	position: relative;
+	padding: ;
+	background: rgb(228, 210, 206);
+	transition: all .5s linear; 
+}
+
+
+.nav a:hover {
+	color: rgb(104,174,170);
+	background: white;
+	transition-duration: .3s;
+}
+
+.nav a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0%;
+	height: 5px;
+	background: ;
+	transition: all .3s linear;
+}
+
+.nav a:hover:after {
+	width: 100%;
+}
+
+.nav.center {
+	text-align: center;
+}
+
+@media (min-width: 500px) {
+	.nav.fit {
+		display: table;
+		width: 100%;
+	}
+
+	.nav.fit li {
+		display: table-cell;
+	}
+
+	.nav.fit a {
+		display: block;
+	}
+}
+
+.about {
+	font-family: verdana;
+	font-style: bold;
+	color: #42a8a8;
+	
+}
+
+.about-desc {
+	font-family: verdana;
+	font-size: 16px;
+	font-style: normal;
+	color: #000;
+	margin-bottom: 50px;
+}
+
+.menu {
+	font-family: verdana;
+	color: #42a8a8;
+}
+
+.menu-items {
+	margin-left: 0;
+	list-style: none;
+}
+
+.menu-item {
+	
+}
+
+.menu-section-title {
+	margin-bottom: 15px;
+	font-size: 22px;
+	text-align: left;
+}
+.menu-kitchen {
+	color: #000;
+	text-align: center;
+}
+
+.menu-item + .menu-item {
+	margin-top: 15px;
+}
+
+.menu-item-title {
+	font-family: verdana;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #000;
+}
+
+.menu-item-desc,
+.menu-item-pairing {
+	margin: 0;
+	font-style: italic;
+	text-transform: lowercase;
+	text-align: left;
+}
+
+.menu-item-desc {
+	font-size: 12px;
+	color: #000;
+}
+
+.menu-item-pairing {
+	font-size: 10px;
+	font-weight: bold;
+	color: #42a8a8;
+}
+
+.pairing-type {
+	font-family: verdana;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+
+.wines-items {
+	margin-left: 0;
+	list-style: none;
+}
+
+.wines-item + .wines-item {
+	margin-top: 15px;
+}
+
+.wines-byglass {
+	font-family: verdana;
+	color: #000;
+}
+
+.wines-section-title {
+	margin-bottom: 15px;
+	font-family: verdana;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: ;
+}
+
+.wines-item-title {
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: light;
+	font-style: italic;
+	color: #000;
+}
+
+.reserve {
+	font-family: verdana;
+	color: #42a8a8;
+}
+
+.reserve-section-title {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.reserve-section-desc {
+	font-size: 12px;
+	color: #000;
+	font-weight: normal;
+}
+
+.chefs {
+	font-family: verdana;
+	color: #42a8a8;
+}
+
+.chefs-section + .chefs-section {
+	margin-top: 40px;
+}
+
+.chefs-section {
+	float: right;
+	color: #000;
+}
+
+.chefs-section-title {
+	font-family: verdana;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	
+}
+
+.chefs-items {
+	list-style: none;
+}
+
+.chefs-item-title {
+	margin-bottom: 10px;
+	color: #42a8a8;
+}
+
+.pagefooter {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
